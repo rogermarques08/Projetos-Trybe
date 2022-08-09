@@ -1,0 +1,86 @@
+#color-palette {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color {
+    border: 1px solid black;
+    height: 75px;
+    width: 75px;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.color {
+    border-radius: 100px;
+}
+
+#clear-board {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#board-size {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#generate-board {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.pixel {
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+
+#pixel-board {
+    width: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px auto 0 auto;
+
+}
+
+#options {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 80px;
+
+}
+
+.options-container {
+    margin: 0 auto 0 auto;
+    width: 38%;
+}
+
+#title {
+    text-align: center;
+    background-color: rgba(228, 228, 228, 0.4);
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-image: url(https://github.com/MateusHoffman/Trybe-Project-03-Pixels-Art/blob/master/img/Back2.gif?raw=true);
+}

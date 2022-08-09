@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Pixel Art</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <main>
+        <div class="options-container">
+            <section id="color-palette">
+                <div class="color black selected"></div>
+                <div class="color blue"></div>
+                <div class="color green"></div>
+                <div class="color red"></div>
+            </section>
+            <section id="options">
+                <button id="clear-board">Limpar</button>
+                <input type="number" id="board-size" placeholder="Digite um valor entre 5 e 50" min="1"
+                    oninput="validity.valid||(value='');" />
+                <button id="generate-board">VQV</button>
+            </section>
+        </div>
+        <section id="pixel-board"></section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
